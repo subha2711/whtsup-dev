@@ -1,0 +1,25 @@
+JUnit:
+-----------
+It is a unit Testing framework for Java programming language.
+When a method is attached with @Test, we donot need to use main method.
+
+@Test:
+-------------
+* It is called Annotation
+* This annotation tells JUnit the public void method to which it is attached.
+
+Annotations:
+* @BeforeClass	: Run once before any of the test methods in the class
+* @Before		: Run before @Test   
+* @Test		: This is the test method to run and can be more than 1
+* @After		: Run after @Test
+* @AfterClass	: Run once after all the tests in the class have been run
+
+When there are more than 1 @test, then the first @test will run along with the before and after test. For the next @ test, it will run again with the before and after test.
+
+Each time @Test has to run, it runs with before and after. once the cycle is completed then for then next @Test it starts with @before then @Test and then the @After.
+
+This process continues untill all @Test has run.
+This type of Testing is calledas Modular Testing
+
+@BeforeClass and @AfterClass happenes only once irrespective of number of @Test.
