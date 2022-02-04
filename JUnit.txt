@@ -25,3 +25,5 @@ This type of Testing is calledas Modular Testing
 @BeforeClass and @AfterClass happenes only once irrespective of number of @Test.
 More to learn.
 Will do after finishing the course
+Use youtube to learn
+google for more doubts
